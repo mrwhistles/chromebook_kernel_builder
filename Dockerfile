@@ -12,7 +12,7 @@ RUN echo "tzdata tzdata/Areas select America" > /tmp/preseed.txt; \
 
 RUN apt install wget git kpartx rsync cron libtool libiniparser-dev libspeexdsp-dev libasound2-dev libdbus-1-dev libsbc-dev libudev-dev ladspa-sdk cargo build-essential bc gcc-8 -y
 RUN ln -fs gcc-8 /usr/bin/gcc
-RUN git clone https://gitlab.com/moussaelianarsen/chromebook-linux-audio.git /usr/src/
+RUN git clone https://github.com/mrwhistles/chromebook_kernel_build.git /usr/src/
 WORKDIR /usr/src/
 RUN bash download-chromium-kernel.sh
 CMD bash compile-chromium-kernel-deb.sh ; \
