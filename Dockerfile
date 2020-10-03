@@ -14,13 +14,3 @@ RUN apt install wget git kpartx rsync cron libtool libiniparser-dev libspeexdsp-
 RUN ln -fs gcc-8 /usr/bin/gcc
 ADD https://raw.githubusercontent.com/mrwhistles/chromebook_kernel_build/main/build_it.sh /tmp
 CMD sleep 10000000
-#ADD  /usr/src
-#RUN rm -rf /usr/src/*
-#RUN rm -rf /usr/src/*.*
-#RUN git clone https://github.com/mrwhistles/chromebook_kernel_build.git /usr/src/
-#WORKDIR /usr/src/
-#RUN bash download-chromium-kernel.sh
-#CMD bash compile-chromium-kernel-deb.sh ; \
-#    sleep 1000000
-
-
