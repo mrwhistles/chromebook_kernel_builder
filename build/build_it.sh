@@ -1,4 +1,4 @@
 #!/bin/bash
-bash download-chromium-kernel.sh
-bash compile-chromium-kernel-deb.sh
+bash /build/download-chromium-kernel.sh
+bash /build/compile-chromium-kernel-deb.sh
 cp -a /usr/*.deb /build/
