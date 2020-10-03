@@ -16,7 +16,12 @@ docker build -f Dockerfile . --tag coskernel:2.0
 
 Run the container with that image:
 
-docker run -v $PWD/build/:/build --detach coskernel:2.0
+docker run -v $PWD/build/:/build --detach coskernel:2.0 --name coskernel20
+
+
+Check on things as it runs:
+
+docker logs coskernel20 -f
 
 
 Collect the .deb packages from /build:
