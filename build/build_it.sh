@@ -1,3 +1,3 @@
 #!/bin/bash
-./build/download-chromium-kernel.sh
-./build/compile-chromium-kernel-deb.sh
+bash download-chromium-kernel.sh
+bash compile-chromium-kernel-deb.sh
