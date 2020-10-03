@@ -1,6 +1,6 @@
 # chromebook_kernel_build
  Docker container that builds the chromiumos kernel for chromebooks that run traditional deb based GNU/Linux distributions.
-
+I'm running this using windows docker desktop (v19.03.13).
 
 
 ## Clone it all:
