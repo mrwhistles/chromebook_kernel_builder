@@ -24,4 +24,4 @@ docker run -v $PWD/build/:/build --name coskernel --detach coskernel:2.1
 docker logs coskernel -f
 
 
-## Collect the .deb packages from /build:
+## Collect the .deb packages from /build
