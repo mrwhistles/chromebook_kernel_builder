@@ -5,7 +5,7 @@ I'm running this using windows docker desktop (v19.03.13).
 
 ## Clone it all:
 
-git clone https://github.com/mrwhistles/chromebook_kernel_build.git
+git clone https://github.com/mrwhistles/chromebook_kernel_builder.git
 
 
 ## Build a docker image:
