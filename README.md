@@ -3,18 +3,18 @@
 
 
 
-Clone it:
+Clone it all:
 
 git clone https://github.com/mrwhistles/chromebook_kernel_build.git
 
 
-Build it:
+Build a docker image:
 
 docker build -f Dockerfile . --tag coskernel:2.0
 
 
 
-Run the container:
+Run the container with that image:
 
 docker run -v $PWD/build/:/build --detach coskernel:2.0
 
