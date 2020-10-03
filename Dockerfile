@@ -12,5 +12,4 @@ RUN echo "tzdata tzdata/Areas select America" > /tmp/preseed.txt; \
 
 RUN apt install wget git kpartx rsync cron libtool libiniparser-dev libspeexdsp-dev libasound2-dev libdbus-1-dev libsbc-dev libudev-dev ladspa-sdk cargo build-essential bc gcc-8 -y
 RUN ln -fs gcc-8 /usr/bin/gcc
-ADD https://raw.githubusercontent.com/mrwhistles/chromebook_kernel_build/main/build_it.sh /tmp
 CMD sleep 10000000
